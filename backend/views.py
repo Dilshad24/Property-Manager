@@ -3,7 +3,7 @@ from django.http import HttpResponse
 import requests
 Base_Id="app6qb9IitNh4rttX"  
 Table_Name="property "
-Api_Key="keyf6wf9VjqQp5jGD"
+Api_Key="API_KEY"
 End_Point="https://api.airtable.com/v0/"+Base_Id+"/"+Table_Name
 Headers={"Authorization":"Bearer "+Api_Key,"Content-Type":"application/json"}
 
